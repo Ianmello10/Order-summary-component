@@ -93,6 +93,8 @@ body {
 .link-plan {
   font-weight: 700;
   color: #382ae1;
+  font-size: 14px;
+  margin-left: 25px;
 }
 
 .icon-music {
