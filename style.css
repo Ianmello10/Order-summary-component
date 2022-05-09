@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #e0e8ff;
+  background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.img-card {
+  width: 100%;
+  height: 200px;
+  background-image: url(/order-summary-component-main/images/illustration-hero.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.sub-main {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.card-main {
+  width: 90%;
+  height: 570px;
+  margin: 50px auto;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.text-card {
+  text-align: center;
+  margin-top: 10px;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+
+.text-card h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.text-card p {
+  width: 90%;
+  margin: 10px auto;
+  line-height: 22px;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.div-plan {
+  width: 80%;
+  height: auto;
+  margin: 18px auto;
+  padding: 14px;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 10px;
+
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f8f9fe;
+}
+
+.div-pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-pricing h2 {
+  font-size: 18px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.div-pricing span {
+  color: hsl(224, 23%, 55%);
+}
+
+.link-plan {
+  font-weight: 700;
+  color: #382ae1;
+}
+
+.icon-music {
+  width: 45px;
+  height: 45px;
+}
+
+.icon-music-img {
+  width: 45px;
+  height: 45px;
+}
+
+.btn {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  color: hsl(225deg 100% 98%);
+  font-weight: bold;
+  background-color: #382ae1;
+  box-shadow: 0px 8px 8px -5px rgba(77, 77, 77, 0.603);
+}
+
+.btn a {
+  color: hsl(225deg 100% 98%);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link-cancel a {
+  text-decoration: none;
+  color: hsl(224deg 23% 55%);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.link-cancel {
+  width: 80%;
+  margin: 8px auto;
+  text-align: center;
+}
+.attribution{width: 100%;
+           text-align: center;
+          padding: 12px;
+         box-sizing: border-box;}
+
+/* Media Queries */
+
+@media (min-width: 540px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .img-card {
+    width: 100%;
+    height: 200px;
+    background-image: url(/order-summary-component-main/images/illustration-hero.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+  }
+
+  .sub-main {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+
+  .card-main {
+    width: 390px;
+    height: 570px;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+  }
+
+  .text-card {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+  }
+
+  .text-card h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+  }
+
+  .text-card p {
+    width: 90%;
+    margin: 10px auto;
+    line-height: 22px;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+  }
+
+  .div-plan {
+    width: 80%;
+    height: auto;
+    margin: 18px auto;
+    padding: 14px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8f9fe;
+  }
+
+  .div-pricing {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-pricing h2 {
+    font-size: 18px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+  }
+
+  .div-pricing span {
+    color: hsl(224, 23%, 55%);
+  }
+
+  .link-plan {
+    font-weight: 700;
+    color: #382ae1;
+  }
+
+  .icon-music {
+    width: 45px;
+    height: 45px;
+  }
+
+  .icon-music-img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .btn {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: hsl(225deg 100% 98%);
+    font-weight: bold;
+    background-color: #382ae1;
+    box-shadow: 0px 8px 7px -5px rgba(77, 77, 77, 0.51);
+  }
+
+  .btn a {
+    color: hsl(225deg 100% 98%);
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .link-cancel a {
+    text-decoration: none;
+    color: hsl(224deg 23% 55%);
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .link-cancel {
+    width: 80%;
+    margin: 8px auto;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1280px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .img-card {
+    width: 100%;
+    height: 200px;
+    background-image: url(/order-summary-component-main/images/illustration-hero.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+  }
+
+  .sub-main {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+
+  .card-main {
+    width: 390px;
+    height: 570px;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+  }
+
+  .text-card {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+  }
+
+  .text-card h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+  }
+
+  .text-card p {
+    width: 90%;
+    margin: 10px auto;
+    line-height: 22px;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+  }
+
+  .div-plan {
+    width: 80%;
+    height: auto;
+    margin: 18px auto;
+    padding: 14px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 10px;
+
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8f9fe;
+  }
+
+  .div-pricing {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-pricing h2 {
+    font-size: 18px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+  }
+
+  .div-pricing span {
+    color: hsl(224, 23%, 55%);
+  }
+
+  .link-plan {
+    font-weight: 700;
+    color: #382ae1;
+  }
+
+  .icon-music {
+    width: 45px;
+    height: 45px;
+  }
+
+  .icon-music-img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .btn {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: hsl(225deg 100% 98%);
+    font-weight: bold;
+    background-color: #382ae1;
+    box-shadow: 0px 8px 7px -5px rgba(77, 77, 77, 0.51);
+  }
+
+  .btn a {
+    color: hsl(225deg 100% 98%);
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .link-cancel a {
+    text-decoration: none;
+    color: hsl(224deg 23% 55%);
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .link-cancel {
+    width: 80%;
+    margin: 8px auto;
+    text-align: center;
+  }
+}
